@@ -30,3 +30,15 @@ Day 4 shows a bad MUX, the blocking caveat and the ternary-operator MUX. The Ass
 
 - [Day_4](../Day_4)
 - [Assesment-1](../Assesment-1)
+
+## Examples and Results
+
+These images come from small example designs that I wrote and ran with Icarus Verilog and Yosys (SKY130 HD cells) for this module. They are generated examples, not screenshots of a terminal session. The Verilog files are in the `examples` folder, so every result can be reproduced.
+
+Example files: [blocking_caveat.v](examples/blocking_caveat.v), [tb_blocking_caveat.v](examples/tb_blocking_caveat.v)
+
+### RTL against gate-level simulation
+
+![RTL against gate-level simulation](rtl_vs_gls_waveform.png)
+
+The code uses blocking assignments in the wrong order, so the RTL output y reads the old value of x. After synthesis the gate-level netlist computes y = (a OR b) AND c, so its output differs from the RTL. This is why a design must also be simulated after synthesis.

@@ -29,3 +29,19 @@ This module introduces the open-source RTL-to-GDS flow and the SKY130 process de
 The Assessment project ran this kind of flow through the Tiny Tapeout (LibreLane) tool: synthesis, layout, DRC, LVS and timing. The reports are in Assesment-1/project/physical_design.
 
 - [Assesment-1](../Assesment-1)
+
+## Examples and Results
+
+The flow diagram is drawn for this module. The layout image is the real result of the Assessment 1 project (see [Assesment-1](../Assesment-1)).
+
+### RTL to GDS flow
+
+![RTL to GDS flow](rtl_to_gds_flow.png)
+
+The steps from RTL to a GDSII layout.
+
+### Layout of the Assessment 1 project
+
+![Layout of the Assessment 1 project](gds_layout.png)
+
+The real GDS render of the pedestrian crossing controller from the Tiny Tapeout flow.

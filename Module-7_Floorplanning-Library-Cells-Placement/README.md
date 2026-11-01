@@ -29,3 +29,13 @@ This module covers the first physical steps of the flow, from the chip outline t
 The final layout of the Assessment project (GDS image and reports) is in Assesment-1.
 
 - [Assesment-1](../Assesment-1)
+
+## Examples and Results
+
+The figures below are drawn from the real report of the Assessment 1 project (see [Assesment-1](../Assesment-1)).
+
+### Floorplan and placement summary of Assessment 1
+
+![Floorplan and placement summary of Assessment 1](floorplan_summary.png)
+
+Die and core size, and placed cell area by type. The numbers come from the project's `final_metrics.json` report.

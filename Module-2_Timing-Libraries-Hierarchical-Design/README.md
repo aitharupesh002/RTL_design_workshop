@@ -29,3 +29,27 @@ This module looks at what is inside a standard-cell library and how larger desig
 Day 2 covers the flip-flop reset styles, sub-modules, multiple modules and netlist flattening.
 
 - [Day_2](../Day_2)
+
+## Examples and Results
+
+These images come from small example designs that I wrote and ran with Icarus Verilog and Yosys (SKY130 HD cells) for this module. They are generated examples, not screenshots of a terminal session. The Verilog files are in the `examples` folder, so every result can be reproduced.
+
+Example files: [dff_reset.v](examples/dff_reset.v), [tb_dff_reset.v](examples/tb_dff_reset.v)
+
+### Asynchronous and synchronous reset
+
+![Asynchronous and synchronous reset](dff_reset_waveform.png)
+
+The reset pulse starts between clock edges. The asynchronous flip-flop (qa) clears at once. The synchronous flip-flop (qs) clears only at the next clock edge.
+
+### Asynchronous reset flip-flop after synthesis
+
+![Asynchronous reset flip-flop after synthesis](dff_async_synthesis.png)
+
+One `dfrtp_1` flip-flop with an active-low reset pin. An inverter turns the active-high reset into the active-low pin.
+
+### Synchronous reset flip-flop after synthesis
+
+![Synchronous reset flip-flop after synthesis](dff_sync_synthesis.png)
+
+One `dfrtp_1` flip-flop with a `nor2b` gate in front of D. The reset is part of the data logic, so no reset pin is used.
