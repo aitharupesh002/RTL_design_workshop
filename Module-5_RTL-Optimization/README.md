@@ -32,7 +32,7 @@ Day 5 contains the incomplete IF/CASE, bad case, MUX/DEMUX generate and ripple-c
 
 ## Examples and Results
 
-These images come from small example designs that I wrote and ran with Icarus Verilog and Yosys (SKY130 HD cells) for this module. They are generated examples, not screenshots of a terminal session. The Verilog files are in the `examples` folder, so every result can be reproduced.
+Simulation and synthesis results for small example designs, using Icarus Verilog and Yosys with the SKY130 HD cell library. The Verilog files are in the `examples` folder, so every result can be reproduced.
 
 Example files: [incomplete_if.v](examples/incomplete_if.v), [tb_incomplete_if.v](examples/tb_incomplete_if.v)
 

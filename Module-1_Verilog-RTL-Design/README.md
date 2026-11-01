@@ -32,7 +32,7 @@ The 2:1 multiplexer (good_mux) in Day 1 follows exactly this flow.
 
 ## Examples and Results
 
-These images come from small example designs that I wrote and ran with Icarus Verilog and Yosys (SKY130 HD cells) for this module. They are generated examples, not screenshots of a terminal session. The Verilog files are in the `examples` folder, so every result can be reproduced.
+Simulation and synthesis results for small example designs, using Icarus Verilog and Yosys with the SKY130 HD cell library. The Verilog files are in the `examples` folder, so every result can be reproduced.
 
 Example files: [good_mux.v](examples/good_mux.v), [tb_good_mux.v](examples/tb_good_mux.v)
 

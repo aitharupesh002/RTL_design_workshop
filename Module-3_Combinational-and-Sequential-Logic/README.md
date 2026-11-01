@@ -31,7 +31,7 @@ Day 3 has the constant-input flip-flops, the counter and the optimisation checks
 
 ## Examples and Results
 
-These images come from small example designs that I wrote and ran with Icarus Verilog and Yosys (SKY130 HD cells) for this module. They are generated examples, not screenshots of a terminal session. The Verilog files are in the `examples` folder, so every result can be reproduced.
+Simulation and synthesis results for small example designs, using Icarus Verilog and Yosys with the SKY130 HD cell library. The Verilog files are in the `examples` folder, so every result can be reproduced.
 
 Example files: [counter.v](examples/counter.v), [tb_counter.v](examples/tb_counter.v)
 

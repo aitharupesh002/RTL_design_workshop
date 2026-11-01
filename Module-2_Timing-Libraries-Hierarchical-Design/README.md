@@ -32,7 +32,7 @@ Day 2 covers the flip-flop reset styles, sub-modules, multiple modules and netli
 
 ## Examples and Results
 
-These images come from small example designs that I wrote and ran with Icarus Verilog and Yosys (SKY130 HD cells) for this module. They are generated examples, not screenshots of a terminal session. The Verilog files are in the `examples` folder, so every result can be reproduced.
+Simulation and synthesis results for small example designs, using Icarus Verilog and Yosys with the SKY130 HD cell library. The Verilog files are in the `examples` folder, so every result can be reproduced.
 
 Example files: [dff_reset.v](examples/dff_reset.v), [tb_dff_reset.v](examples/tb_dff_reset.v)
 
