@@ -8,6 +8,23 @@ Each day has its own folder with a README that explains the experiment and shows
 
 ---
 
+## Course Modules
+
+| Module | Topic | My work |
+|---|---|---|
+| [Module 0](Module-0_Getting-Started) | Getting started: Linux and tool setup | Day 1 |
+| [Module 1](Module-1_Verilog-RTL-Design) | Verilog RTL design, simulation and Yosys synthesis | Day 1 |
+| [Module 2](Module-2_Timing-Libraries-Hierarchical-Design) | Timing libraries, hierarchical design, flip-flop resets | Day 2 |
+| [Module 3](Module-3_Combinational-and-Sequential-Logic) | Combinational and sequential optimisation | Day 3 |
+| [Module 4](Module-4_GLS-Synthesis-Verilog-Coding) | Gate-level simulation and coding style | Day 4, Assessment 1 |
+| [Module 5](Module-5_RTL-Optimization) | IF/CASE, latches, loops and generate | Day 5 |
+| [Module 6](Module-6_OpenLANE-SKY130) | OpenLANE and SKY130 RTL-to-GDS flow | Assessment 1 |
+| [Module 7](Module-7_Floorplanning-Library-Cells-Placement) | Floorplanning, library cells and placement | Assessment 1 |
+
+Each module folder has a README with the topics covered and a link to my practical work.
+
+---
+
 ## Workshop Days
 
 ### Day 1 – Good MUX
@@ -99,6 +116,7 @@ Verilog HDL, Icarus Verilog, GTKWave, Yosys, SKY130 PDK, Verilator, cocotb, Tiny
 
 ```text
 RTL_design_workshop
+├── Module-0 to Module-7   Topic notes for each course module
 ├── Day_1          Good MUX
 ├── Day_2          Sequential logic and hierarchical design
 ├── Day_3          RTL optimization
