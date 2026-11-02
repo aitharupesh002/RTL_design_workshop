@@ -8,6 +8,16 @@ Each day has its own folder with a README that explains the experiment and shows
 
 ---
 
+## Course Video
+
+A recorded explanation of the workshop and the course work.
+
+<video src="https://github.com/aitharupesh002/rtl_design_workshop/raw/main/full%20course%20video.mp4" controls width="360"></video>
+
+If the player does not load, open [full course video.mp4](full%20course%20video.mp4).
+
+---
+
 ## Course Modules
 
 | Module | Topic | My work |
